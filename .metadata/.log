@@ -1,0 +1,223 @@
+!SESSION 2025-06-28 09:39:11.050 -----------------------------------------------
+eclipse.buildId=Version 1.18.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-06-28 09:39:18.810
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-06-28 09:39:18.811
+!MESSAGE Log4j2 initialized with config file E:\STM32Projects\.metadata\.log4j2.xml
+
+!ENTRY org.eclipse.core.net 1 0 2025-06-28 09:39:20.172
+!MESSAGE System property http.proxyHost is set to 127.0.0.1 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2025-06-28 09:39:20.173
+!MESSAGE System property http.proxyPort is set to 7890 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2025-06-28 09:39:20.173
+!MESSAGE System property https.proxyHost is set to 127.0.0.1 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2025-06-28 09:39:20.173
+!MESSAGE System property https.proxyPort is set to 7890 but should not be set.
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-06-28 09:39:21.512
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.core.net 1 0 2025-06-28 09:39:25.935
+!MESSAGE System property http.proxyHost is set to 127.0.0.1 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2025-06-28 09:39:25.935
+!MESSAGE System property http.proxyPort is set to 7890 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2025-06-28 09:39:25.935
+!MESSAGE System property https.proxyHost is set to 127.0.0.1 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2025-06-28 09:39:25.936
+!MESSAGE System property https.proxyPort is set to 7890 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2025-06-28 09:39:25.954
+!MESSAGE System property http.proxyHost is set to 127.0.0.1 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2025-06-28 09:39:25.955
+!MESSAGE System property http.proxyPort is set to 7890 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2025-06-28 09:39:25.955
+!MESSAGE System property https.proxyHost is set to 127.0.0.1 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2025-06-28 09:39:25.955
+!MESSAGE System property https.proxyPort is set to 7890 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2025-06-28 09:39:25.955
+!MESSAGE System property http.proxyHost is set to 127.0.0.1 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2025-06-28 09:39:25.955
+!MESSAGE System property http.proxyPort is set to 7890 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2025-06-28 09:39:25.956
+!MESSAGE System property https.proxyHost is set to 127.0.0.1 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2025-06-28 09:39:25.956
+!MESSAGE System property https.proxyPort is set to 7890 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2025-06-28 09:39:25.956
+!MESSAGE System property http.proxyHost is set to 127.0.0.1 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2025-06-28 09:39:25.956
+!MESSAGE System property http.proxyPort is set to 7890 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2025-06-28 09:39:25.956
+!MESSAGE System property https.proxyHost is set to 127.0.0.1 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2025-06-28 09:39:25.957
+!MESSAGE System property https.proxyPort is set to 7890 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2025-06-28 09:39:25.957
+!MESSAGE System property http.proxyHost is set to 127.0.0.1 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2025-06-28 09:39:25.957
+!MESSAGE System property http.proxyPort is set to 7890 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2025-06-28 09:39:25.957
+!MESSAGE System property https.proxyHost is set to 127.0.0.1 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2025-06-28 09:39:25.957
+!MESSAGE System property https.proxyPort is set to 7890 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2025-06-28 09:39:25.958
+!MESSAGE System property http.proxyHost is set to 127.0.0.1 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2025-06-28 09:39:25.958
+!MESSAGE System property http.proxyPort is set to 7890 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2025-06-28 09:39:25.958
+!MESSAGE System property https.proxyHost is set to 127.0.0.1 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2025-06-28 09:39:25.958
+!MESSAGE System property https.proxyPort is set to 7890 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2025-06-28 09:39:25.958
+!MESSAGE System property http.proxyHost is set to 127.0.0.1 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2025-06-28 09:39:25.958
+!MESSAGE System property http.proxyPort is set to 7890 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2025-06-28 09:39:25.958
+!MESSAGE System property https.proxyHost is set to 127.0.0.1 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2025-06-28 09:39:25.959
+!MESSAGE System property https.proxyPort is set to 7890 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2025-06-28 09:39:25.960
+!MESSAGE System property http.proxyHost is set to 127.0.0.1 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2025-06-28 09:39:25.960
+!MESSAGE System property http.proxyPort is set to 7890 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2025-06-28 09:39:25.960
+!MESSAGE System property https.proxyHost is set to 127.0.0.1 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2025-06-28 09:39:25.960
+!MESSAGE System property https.proxyPort is set to 7890 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2025-06-28 09:39:27.572
+!MESSAGE System property http.proxyHost is set to 127.0.0.1 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2025-06-28 09:39:27.572
+!MESSAGE System property http.proxyPort is set to 7890 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2025-06-28 09:39:27.572
+!MESSAGE System property https.proxyHost is set to 127.0.0.1 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2025-06-28 09:39:27.574
+!MESSAGE System property https.proxyPort is set to 7890 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2025-06-28 09:39:27.574
+!MESSAGE System property http.proxyHost is set to 127.0.0.1 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2025-06-28 09:39:27.574
+!MESSAGE System property http.proxyPort is set to 7890 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2025-06-28 09:39:27.575
+!MESSAGE System property https.proxyHost is set to 127.0.0.1 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2025-06-28 09:39:27.575
+!MESSAGE System property https.proxyPort is set to 7890 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2025-06-28 09:39:27.575
+!MESSAGE System property http.proxyHost is set to 127.0.0.1 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2025-06-28 09:39:27.576
+!MESSAGE System property http.proxyPort is set to 7890 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2025-06-28 09:39:27.576
+!MESSAGE System property https.proxyHost is set to 127.0.0.1 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2025-06-28 09:39:27.576
+!MESSAGE System property https.proxyPort is set to 7890 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2025-06-28 09:39:27.577
+!MESSAGE System property http.proxyHost is set to 127.0.0.1 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2025-06-28 09:39:27.577
+!MESSAGE System property http.proxyPort is set to 7890 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2025-06-28 09:39:27.577
+!MESSAGE System property https.proxyHost is set to 127.0.0.1 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2025-06-28 09:39:27.578
+!MESSAGE System property https.proxyPort is set to 7890 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2025-06-28 09:39:27.578
+!MESSAGE System property http.proxyHost is set to 127.0.0.1 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2025-06-28 09:39:27.578
+!MESSAGE System property http.proxyPort is set to 7890 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2025-06-28 09:39:27.579
+!MESSAGE System property https.proxyHost is set to 127.0.0.1 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2025-06-28 09:39:27.579
+!MESSAGE System property https.proxyPort is set to 7890 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2025-06-28 09:39:27.579
+!MESSAGE System property http.proxyHost is set to 127.0.0.1 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2025-06-28 09:39:27.579
+!MESSAGE System property http.proxyPort is set to 7890 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2025-06-28 09:39:27.580
+!MESSAGE System property https.proxyHost is set to 127.0.0.1 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2025-06-28 09:39:27.580
+!MESSAGE System property https.proxyPort is set to 7890 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2025-06-28 09:39:27.581
+!MESSAGE System property http.proxyHost is set to 127.0.0.1 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2025-06-28 09:39:27.581
+!MESSAGE System property http.proxyPort is set to 7890 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2025-06-28 09:39:27.582
+!MESSAGE System property https.proxyHost is set to 127.0.0.1 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2025-06-28 09:39:27.582
+!MESSAGE System property https.proxyPort is set to 7890 but should not be set.
+
+!ENTRY org.eclipse.ui.ide 4 0 2025-06-28 09:40:26.524
+!MESSAGE Could not import project located at E:\STM32Projects
+!STACK 0
+org.eclipse.ui.internal.wizards.datatransfer.CouldNotImportProjectException: Could not import project located at E:\STM32Projects
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.toExistingOrNewProject(SmartImportJob.java:555)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.run(SmartImportJob.java:246)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:211)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:95)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:305)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:291)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.createOrImportProject(SmartImportJob.java:594)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.toExistingOrNewProject(SmartImportJob.java:542)
+	... 2 more

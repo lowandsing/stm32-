@@ -1,0 +1,74 @@
+cmake_minimum_required(VERSION 3.22)
+
+# Setup compiler settings
+set(CMAKE_C_STANDARD 11)
+set(CMAKE_C_STANDARD_REQUIRED ON)
+set(CMAKE_C_EXTENSIONS ON)
+
+# Define the build type
+if(NOT CMAKE_BUILD_TYPE)
+    set(CMAKE_BUILD_TYPE "Debug")
+endif()
+
+# Set the project name
+set(CMAKE_PROJECT_NAME 3-3USARTclion)
+
+# Include toolchain file
+include("cmake/gcc-arm-none-eabi.cmake")
+
+# Enable compile command to ease indexing with e.g. clangd
+set(CMAKE_EXPORT_COMPILE_COMMANDS TRUE)
+
+# Core project settings
+project(${CMAKE_PROJECT_NAME})
+message("Build type: " ${CMAKE_BUILD_TYPE})
+
+# Enable CMake support for ASM and C languages
+enable_language(C ASM)
+
+# Create an executable object type
+add_executable(${CMAKE_PROJECT_NAME}
+        Core/Inc/led.h
+        Core/Src/main.c
+        Core/Inc/key.h
+        Core/Src/key.c
+        Core/Inc/exti.h
+        Core/Src/exti.c
+        Core/Inc/usart.h
+        Core/Src/usart.c
+        Core/Inc/Serial.h
+        Core/Src/Serial.c
+        Core/Inc/gtim.h
+        Core/Src/gtim.c  # 只需要添加 main.c 和其他源文件
+)
+
+# Add STM32CubeMX generated sources
+add_subdirectory(cmake/stm32cubemx)
+
+# Link directories setup
+target_link_directories(${CMAKE_PROJECT_NAME} PRIVATE
+        # Add user defined library search paths
+)
+
+# Add sources to executable
+target_sources(${CMAKE_PROJECT_NAME} PRIVATE
+        # 这里不需要添加 led.c
+
+)
+
+# Add include paths
+target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
+        # Add user defined include paths
+)
+
+# Add project symbols (macros)
+target_compile_definitions(${CMAKE_PROJECT_NAME} PRIVATE
+        # Add user defined symbols
+)
+
+# Add linked libraries
+target_link_libraries(${CMAKE_PROJECT_NAME}
+        stm32cubemx
+
+        # Add user defined libraries
+)
