@@ -13,11 +13,11 @@ void gtim_timx_pwm_chy_init(uint16_t psc,uint16_t arr)
   gtim_timx_pwm_chy_handle.Init.CounterMode = TIM_COUNTERMODE_UP;//计数模式，例如向上计数模式
   HAL_TIM_PWM_Init(&gtim_timx_pwm_chy_handle);
 
-  timx_oc_pwm_chy.OCMode = TIM_OCMODE_PWM1;
+  timx_oc_pwm_chy.OCMode = TIM_OCMODE_PWM1;//pwm输出模式
   timx_oc_pwm_chy.Pulse = arr/2;   //CCRx的值
   timx_oc_pwm_chy.OCPolarity = TIM_OCPOLARITY_LOW;  //设置极性为低
   HAL_TIM_PWM_ConfigChannel(&gtim_timx_pwm_chy_handle,&timx_oc_pwm_chy,TIM_CHANNEL_2);
-  HAL_TIM_PWM_Start(&gtim_timx_pwm_chy_handle,TIM_CHANNEL_2);
+  HAL_TIM_PWM_Start(&gtim_timx_pwm_chy_handle,TIM_CHANNEL_2);//开启pwm
 
 }
 
@@ -39,7 +39,7 @@ void HAL_TIM_PWM_MspInit(TIM_HandleTypeDef* htim_pwm)
     // 初始化 GPIO，引脚设置
     HAL_GPIO_Init(GPIOB, &GPIO_InitStructure);
     __HAL_RCC_AFIO_CLK_ENABLE(); //io口复用，之前学外部中断也用到这个
-    __HAL_AFIO_REMAP_TIM3_PARTIAL();
+    __HAL_AFIO_REMAP_TIM3_PARTIAL();//io复用，复用到pb5，这个要去看原理图
 
 
 
